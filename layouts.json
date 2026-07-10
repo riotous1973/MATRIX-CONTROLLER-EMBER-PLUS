@@ -1,0 +1,2133 @@
+{
+  "111111": {
+    "numInputs": 14,
+    "numOutputs": 4,
+    "inputsData": [
+      {
+        "name": "SIMPLY 1",
+        "id": 24
+      },
+      {
+        "name": "In 4C",
+        "id": 14
+      },
+      {
+        "name": "In 4B",
+        "id": 13
+      },
+      {
+        "name": "In 3D",
+        "id": 11,
+        "bgColor": "#9aa22f"
+      },
+      {
+        "name": "In 3C",
+        "id": 10
+      },
+      {
+        "name": "In 3B",
+        "id": 9
+      },
+      {
+        "name": "FAN REACTIONS D",
+        "id": 7
+      },
+      {
+        "name": "FAN REACTIONS C",
+        "id": 6,
+        "bgColor": "#7c3636"
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 5
+      },
+      {
+        "name": "AF 2 (VMIX)",
+        "id": 109,
+        "bgColor": "#26d9cd"
+      },
+      {
+        "name": "AF 1 (VMIX)",
+        "id": 108
+      },
+      {
+        "name": "*MUX WF A BKP",
+        "id": 12
+      },
+      {
+        "name": "* MUX WF C",
+        "id": 98,
+        "bgColor": "#3b82f6"
+      },
+      {
+        "name": "* MUX ASCOLTI",
+        "id": 8,
+        "bgColor": "#a11b1b"
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "TV UFFICIO",
+        "id": 70
+      },
+      {
+        "name": "Out 3B",
+        "id": 5
+      },
+      {
+        "name": "Out 2B",
+        "id": 3
+      },
+      {
+        "name": "Out 2A",
+        "id": 2
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false,
+    "snapshots": {
+      "test snap 1": {
+        "2": 1001,
+        "3": 14,
+        "5": 1001,
+        "70": 108
+      },
+      "test snap 1111": {
+        "2": 10,
+        "3": 11,
+        "5": 1001,
+        "70": 108
+      }
+    }
+  },
+  "TEST": {
+    "numInputs": 6,
+    "numOutputs": 4,
+    "inputsData": [
+      {
+        "name": "AF 1 (VMIX)",
+        "id": 108,
+        "bgColor": "#b75252",
+        "fgColor": "#050505"
+      },
+      {
+        "name": "AF 2 (VMIX)",
+        "id": 109,
+        "bgColor": "#b75252",
+        "fgColor": "#050505"
+      },
+      {
+        "name": "SIMPLY 1",
+        "id": 24,
+        "bgColor": "#b75252",
+        "fgColor": "#050505"
+      },
+      {
+        "name": "* MUX WF C",
+        "id": 98,
+        "bgColor": "#26d9cd",
+        "fgColor": "#050505"
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 5
+      },
+      {
+        "name": "* MUX ASCOLTI",
+        "id": 8
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "TV UFFICIO",
+        "id": 70,
+        "bgColor": "#b75252"
+      },
+      {
+        "name": "TSL IN 1",
+        "id": 74,
+        "bgColor": "#b75252"
+      },
+      {
+        "name": "TSL IN 2",
+        "id": 75,
+        "bgColor": "#b75252"
+      },
+      {
+        "name": "MON SONY SIMPLY",
+        "id": 73
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false
+  },
+  "TEST 2": {
+    "numInputs": 14,
+    "numOutputs": 2,
+    "inputsData": [
+      {
+        "name": "* MUX ASCOLTI",
+        "id": 8,
+        "bgColor": "#a11b1b"
+      },
+      {
+        "name": "* MUX WF C",
+        "id": 98,
+        "bgColor": "#3b82f6"
+      },
+      {
+        "name": "*MUX WF A BKP",
+        "id": 12
+      },
+      {
+        "name": "AF 1 (VMIX)",
+        "id": 108
+      },
+      {
+        "name": "AF 2 (VMIX)",
+        "id": 109,
+        "bgColor": "#26d9cd"
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 5
+      },
+      {
+        "name": "FAN REACTIONS C",
+        "id": 6,
+        "bgColor": "#7c3636"
+      },
+      {
+        "name": "FAN REACTIONS D",
+        "id": 7
+      },
+      {
+        "name": "In 3B",
+        "id": 9
+      },
+      {
+        "name": "In 3C",
+        "id": 10
+      },
+      {
+        "name": "In 3D",
+        "id": 11,
+        "bgColor": "#9aa22f"
+      },
+      {
+        "name": "In 4B",
+        "id": 13
+      },
+      {
+        "name": "In 4C",
+        "id": 14
+      },
+      {
+        "name": "SIMPLY 1",
+        "id": 24
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "MUX ASCOLTI",
+        "id": 4
+      },
+      {
+        "name": "MUX WF A BKP",
+        "id": 6
+      },
+      {
+        "name": "Out 2A",
+        "id": 2
+      },
+      {
+        "name": "Out 2B",
+        "id": 3
+      },
+      {
+        "name": "Out 3B",
+        "id": 5
+      },
+      {
+        "name": "Out 4B",
+        "id": 7
+      },
+      {
+        "name": "TSL IN 1",
+        "id": 74
+      },
+      {
+        "name": "TV UFFICIO",
+        "id": 70
+      }
+    ]
+  },
+  "TEST 3": {
+    "numInputs": 7,
+    "numOutputs": 5,
+    "inputsData": [
+      {
+        "name": "AF 1 (VMIX)",
+        "id": 108,
+        "bgColor": "#1767e8"
+      },
+      {
+        "name": "AF 2 (VMIX)",
+        "id": 109
+      },
+      {
+        "name": "SIMPLY 1",
+        "id": 24
+      },
+      {
+        "name": "* MUX WF C",
+        "id": 98
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 5
+      },
+      {
+        "name": "FAN REACTIONS C",
+        "id": 6
+      },
+      {
+        "name": "FAN REACTIONS D",
+        "id": 7
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "TV UFFICIO",
+        "id": 70,
+        "bgColor": "#f2071f"
+      },
+      {
+        "name": "TSL IN 1",
+        "id": 74
+      },
+      {
+        "name": "TSL IN 2",
+        "id": 75
+      },
+      {
+        "name": "MON SONY SIMPLY",
+        "id": 73
+      },
+      {
+        "name": "Out 3B",
+        "id": 5
+      }
+    ]
+  },
+  "MAKITO 1 - 2": {
+    "numInputs": 8,
+    "numOutputs": 2,
+    "inputsData": [
+      {
+        "name": "* MUX WF A",
+        "id": 96,
+        "bgColor": "#7b9ed5"
+      },
+      {
+        "name": "* MUX WF B",
+        "id": 97,
+        "bgColor": "#54926c"
+      },
+      {
+        "name": "* MUX WF C",
+        "id": 98,
+        "bgColor": "#877c45"
+      },
+      {
+        "name": "* MUX WF D",
+        "id": 99,
+        "bgColor": "#86697d"
+      },
+      {
+        "name": "* MUX CLEAN A",
+        "id": 100,
+        "bgColor": "#7b9ed5"
+      },
+      {
+        "name": "* MUX CLEAN B",
+        "id": 101,
+        "bgColor": "#54926c"
+      },
+      {
+        "name": "* MUX CLEAN C",
+        "id": 102,
+        "bgColor": "#877c45"
+      },
+      {
+        "name": "* MUX CLEAN D",
+        "id": 103,
+        "bgColor": "#86697d"
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "MAKITO 1",
+        "id": 36,
+        "bgColor": "#a84d56"
+      },
+      {
+        "name": "MAKITO 2",
+        "id": 56,
+        "bgColor": "#1f3a1d"
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false
+  },
+  "Simply": {
+    "numInputs": 64,
+    "numOutputs": 8,
+    "inputsData": [
+      {
+        "name": "* MUX CLEAN A",
+        "id": 100
+      },
+      {
+        "name": "TEAM-A A",
+        "id": 64
+      },
+      {
+        "name": "TEAM-B A",
+        "id": 68
+      },
+      {
+        "name": "FAN REACTIONS A",
+        "id": 4
+      },
+      {
+        "name": "* MUX WF A",
+        "id": 96
+      },
+      {
+        "name": "* MUX CLEAN B",
+        "id": 101
+      },
+      {
+        "name": "TEAM-A B",
+        "id": 65
+      },
+      {
+        "name": "TEAM-B B",
+        "id": 69
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 5
+      },
+      {
+        "name": "* MUX WF B",
+        "id": 97
+      },
+      {
+        "name": "* MUX CLEAN C",
+        "id": 102
+      },
+      {
+        "name": "TEAM-A C",
+        "id": 66
+      },
+      {
+        "name": "TEAM-B C",
+        "id": 70
+      },
+      {
+        "name": "FAN REACTIONS C",
+        "id": 6
+      },
+      {
+        "name": "* MUX WF C",
+        "id": 98
+      },
+      {
+        "name": "* MUX CLEAN D",
+        "id": 103
+      },
+      {
+        "name": "TEAM-A D",
+        "id": 67
+      },
+      {
+        "name": "TEAM-B D",
+        "id": 71
+      },
+      {
+        "name": "FAN REACTIONS D",
+        "id": 7
+      },
+      {
+        "name": "* MUX WF D",
+        "id": 99
+      },
+      {
+        "name": "MPR 7",
+        "id": 83
+      },
+      {
+        "name": "MPR 8",
+        "id": 87
+      },
+      {
+        "name": "MPR 3",
+        "id": 23
+      },
+      {
+        "name": "SIMPLY 1",
+        "id": 24
+      },
+      {
+        "name": "RIT ROMA - 1",
+        "id": 25
+      },
+      {
+        "name": "In 7C",
+        "id": 26
+      },
+      {
+        "name": "In 7D",
+        "id": 27
+      },
+      {
+        "name": "In 8A",
+        "id": 28
+      },
+      {
+        "name": "ZAINETTO 1",
+        "id": 29
+      },
+      {
+        "name": "In 8C",
+        "id": 30
+      },
+      {
+        "name": "In 8D",
+        "id": 31
+      },
+      {
+        "name": "CLEAN FEED A",
+        "id": 32
+      },
+      {
+        "name": "CLEAN FEED B",
+        "id": 33
+      },
+      {
+        "name": "CLEAN FEED C",
+        "id": 34
+      },
+      {
+        "name": "CLEAN FEED D",
+        "id": 35
+      },
+      {
+        "name": "BEAUTY A",
+        "id": 36
+      },
+      {
+        "name": "BEAUTY B",
+        "id": 37
+      },
+      {
+        "name": "BEAUTY C",
+        "id": 38
+      },
+      {
+        "name": "BEAUTY D",
+        "id": 39
+      },
+      {
+        "name": "WORLDFEED HDR A",
+        "id": 40
+      },
+      {
+        "name": "WORLDFEED HDR B",
+        "id": 41
+      },
+      {
+        "name": "WORLDFEED HDR C",
+        "id": 42
+      },
+      {
+        "name": "WORLDFEED HDR D",
+        "id": 43
+      },
+      {
+        "name": "*MUX WF B BKP",
+        "id": 44
+      },
+      {
+        "name": "In 4B",
+        "id": 45
+      },
+      {
+        "name": "In 4C",
+        "id": 46
+      },
+      {
+        "name": "MPR 4",
+        "id": 47
+      },
+      {
+        "name": "SWITCH INPUT 2",
+        "id": 48
+      },
+      {
+        "name": "In 5B",
+        "id": 49
+      },
+      {
+        "name": "In 5C",
+        "id": 50
+      },
+      {
+        "name": "MPR 5",
+        "id": 51
+      },
+      {
+        "name": "In 6A",
+        "id": 52
+      },
+      {
+        "name": "In 6B",
+        "id": 53
+      },
+      {
+        "name": "ZAINO 3",
+        "id": 54
+      },
+      {
+        "name": "MPR 6",
+        "id": 55
+      },
+      {
+        "name": "SIMPLY 2",
+        "id": 56
+      },
+      {
+        "name": "RIT ROMA - 2",
+        "id": 57
+      },
+      {
+        "name": "In 7C",
+        "id": 58
+      },
+      {
+        "name": "In 7D",
+        "id": 59
+      },
+      {
+        "name": "In 8A",
+        "id": 60
+      },
+      {
+        "name": "ZAINETTO 2",
+        "id": 61
+      },
+      {
+        "name": "In 8C",
+        "id": 62
+      },
+      {
+        "name": "In 8D",
+        "id": 63
+      },
+      {
+        "name": "TEAM-A A",
+        "id": 64
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "SIMPLY 1",
+        "id": 8
+      },
+      {
+        "name": "SIMPLY 2",
+        "id": 10
+      },
+      {
+        "name": "SIMPLY 3",
+        "id": 28
+      },
+      {
+        "name": "SIMPLY 4",
+        "id": 30
+      },
+      {
+        "name": "SIMPLY 5",
+        "id": 48
+      },
+      {
+        "name": "SIMPLY 6",
+        "id": 50
+      },
+      {
+        "name": "MON SONY SIMPLY",
+        "id": 73
+      },
+      {
+        "name": "TSL IN 1",
+        "id": 74
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false
+  },
+  "Simply Color": {
+    "numInputs": 64,
+    "numOutputs": 8,
+    "inputsData": [
+      {
+        "name": "* MUX CLEAN A",
+        "id": 100,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A A",
+        "id": 64,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-B A",
+        "id": 68,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS A",
+        "id": 4,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX WF A",
+        "id": 96,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX CLEAN B",
+        "id": 101,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A B",
+        "id": 65,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-B B",
+        "id": 69,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 5,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX WF B",
+        "id": 97,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX CLEAN C",
+        "id": 102,
+        "bgColor": "#7af5cc",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A C",
+        "id": 66,
+        "bgColor": "#7af5cc",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-B C",
+        "id": 70,
+        "bgColor": "#7af5cc",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS C",
+        "id": 6,
+        "bgColor": "#7af5cc",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX WF C",
+        "id": 98,
+        "bgColor": "#7af5cc",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX CLEAN D",
+        "id": 103,
+        "bgColor": "#f3e439",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A D",
+        "id": 67,
+        "bgColor": "#f3e439",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-B D",
+        "id": 71,
+        "bgColor": "#f3e439",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS D",
+        "id": 7,
+        "bgColor": "#f3e439",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX WF D",
+        "id": 99,
+        "bgColor": "#f3e439",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "MPR 7",
+        "id": 83
+      },
+      {
+        "name": "MPR 8",
+        "id": 87
+      },
+      {
+        "name": "MPR 3",
+        "id": 23
+      },
+      {
+        "name": "SIMPLY 1",
+        "id": 24
+      },
+      {
+        "name": "RIT ROMA - 1",
+        "id": 25
+      },
+      {
+        "name": "In 7C",
+        "id": 26
+      },
+      {
+        "name": "In 7D",
+        "id": 27
+      },
+      {
+        "name": "In 8A",
+        "id": 28
+      },
+      {
+        "name": "ZAINETTO 1",
+        "id": 29
+      },
+      {
+        "name": "In 8C",
+        "id": 30
+      },
+      {
+        "name": "In 8D",
+        "id": 31
+      },
+      {
+        "name": "CLEAN FEED A",
+        "id": 32
+      },
+      {
+        "name": "CLEAN FEED B",
+        "id": 33
+      },
+      {
+        "name": "CLEAN FEED C",
+        "id": 34
+      },
+      {
+        "name": "CLEAN FEED D",
+        "id": 35
+      },
+      {
+        "name": "BEAUTY A",
+        "id": 36
+      },
+      {
+        "name": "BEAUTY B",
+        "id": 37
+      },
+      {
+        "name": "BEAUTY C",
+        "id": 38
+      },
+      {
+        "name": "BEAUTY D",
+        "id": 39
+      },
+      {
+        "name": "WORLDFEED HDR A",
+        "id": 40
+      },
+      {
+        "name": "WORLDFEED HDR B",
+        "id": 41
+      },
+      {
+        "name": "WORLDFEED HDR C",
+        "id": 42
+      },
+      {
+        "name": "WORLDFEED HDR D",
+        "id": 43
+      },
+      {
+        "name": "*MUX WF B BKP",
+        "id": 44
+      },
+      {
+        "name": "In 4B",
+        "id": 45
+      },
+      {
+        "name": "In 4C",
+        "id": 46
+      },
+      {
+        "name": "MPR 4",
+        "id": 47
+      },
+      {
+        "name": "SWITCH INPUT 2",
+        "id": 48
+      },
+      {
+        "name": "In 5B",
+        "id": 49
+      },
+      {
+        "name": "In 5C",
+        "id": 50
+      },
+      {
+        "name": "MPR 5",
+        "id": 51
+      },
+      {
+        "name": "In 6A",
+        "id": 52
+      },
+      {
+        "name": "In 6B",
+        "id": 53
+      },
+      {
+        "name": "ZAINO 3",
+        "id": 54
+      },
+      {
+        "name": "MPR 6",
+        "id": 55
+      },
+      {
+        "name": "SIMPLY 2",
+        "id": 56
+      },
+      {
+        "name": "RIT ROMA - 2",
+        "id": 57
+      },
+      {
+        "name": "In 7C",
+        "id": 58
+      },
+      {
+        "name": "In 7D",
+        "id": 59
+      },
+      {
+        "name": "In 8A",
+        "id": 60
+      },
+      {
+        "name": "ZAINETTO 2",
+        "id": 61
+      },
+      {
+        "name": "In 8C",
+        "id": 62
+      },
+      {
+        "name": "In 8D",
+        "id": 63
+      },
+      {
+        "name": "TEAM-A A",
+        "id": 64
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "SIMPLY 1",
+        "id": 8
+      },
+      {
+        "name": "SIMPLY 2",
+        "id": 10
+      },
+      {
+        "name": "SIMPLY 3",
+        "id": 28
+      },
+      {
+        "name": "SIMPLY 4",
+        "id": 30
+      },
+      {
+        "name": "SIMPLY 5",
+        "id": 48
+      },
+      {
+        "name": "SIMPLY 6",
+        "id": 50
+      },
+      {
+        "name": "MON SONY SIMPLY",
+        "id": 73
+      },
+      {
+        "name": "TSL IN 1",
+        "id": 74
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false
+  },
+  "Simply Color TEST": {
+    "numInputs": 64,
+    "numOutputs": 4,
+    "inputsData": [
+      {
+        "name": "* MUX CLEAN A",
+        "id": 100,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A A",
+        "id": 64,
+        "bgColor": "#bababa",
+        "fgColor": "#b72424"
+      },
+      {
+        "name": "TEAM-B A",
+        "id": 68,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS A",
+        "id": 4,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX WF A",
+        "id": 96,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX CLEAN B",
+        "id": 101,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A B",
+        "id": 65,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-B B",
+        "id": 69,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 5,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX WF B",
+        "id": 97,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX CLEAN C",
+        "id": 102,
+        "bgColor": "#7af5cc",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A C",
+        "id": 66,
+        "bgColor": "#7af5cc",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-B C",
+        "id": 70,
+        "bgColor": "#7af5cc",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS C",
+        "id": 6,
+        "bgColor": "#7af5cc",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX WF C",
+        "id": 98,
+        "bgColor": "#7af5cc",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX CLEAN D",
+        "id": 103,
+        "bgColor": "#f3e439",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A D",
+        "id": 67,
+        "bgColor": "#f3e439",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-B D",
+        "id": 71,
+        "bgColor": "#f3e439",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS D",
+        "id": 7,
+        "bgColor": "#f3e439",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX WF D",
+        "id": 99,
+        "bgColor": "#f3e439",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "MPR 7",
+        "id": 83
+      },
+      {
+        "name": "MPR 8",
+        "id": 87
+      },
+      {
+        "name": "MPR 3",
+        "id": 23
+      },
+      {
+        "name": "SIMPLY 1",
+        "id": 24
+      },
+      {
+        "name": "RIT ROMA - 1",
+        "id": 25
+      },
+      {
+        "name": "In 7C",
+        "id": 26
+      },
+      {
+        "name": "In 7D",
+        "id": 27
+      },
+      {
+        "name": "In 8A",
+        "id": 28
+      },
+      {
+        "name": "ZAINETTO 1",
+        "id": 29
+      },
+      {
+        "name": "In 8C",
+        "id": 30
+      },
+      {
+        "name": "In 8D",
+        "id": 31
+      },
+      {
+        "name": "CLEAN FEED A",
+        "id": 32
+      },
+      {
+        "name": "CLEAN FEED B",
+        "id": 33
+      },
+      {
+        "name": "CLEAN FEED C",
+        "id": 34
+      },
+      {
+        "name": "CLEAN FEED D",
+        "id": 35
+      },
+      {
+        "name": "BEAUTY A",
+        "id": 36
+      },
+      {
+        "name": "BEAUTY B",
+        "id": 37
+      },
+      {
+        "name": "BEAUTY C",
+        "id": 38
+      },
+      {
+        "name": "BEAUTY D",
+        "id": 39
+      },
+      {
+        "name": "WORLDFEED HDR A",
+        "id": 40
+      },
+      {
+        "name": "WORLDFEED HDR B",
+        "id": 41
+      },
+      {
+        "name": "WORLDFEED HDR C",
+        "id": 42
+      },
+      {
+        "name": "WORLDFEED HDR D",
+        "id": 43
+      },
+      {
+        "name": "*MUX WF B BKP",
+        "id": 44
+      },
+      {
+        "name": "In 4B",
+        "id": 45
+      },
+      {
+        "name": "In 4C",
+        "id": 46
+      },
+      {
+        "name": "MPR 4",
+        "id": 47
+      },
+      {
+        "name": "SWITCH INPUT 2",
+        "id": 48
+      },
+      {
+        "name": "In 5B",
+        "id": 49
+      },
+      {
+        "name": "In 5C",
+        "id": 50
+      },
+      {
+        "name": "MPR 5",
+        "id": 51
+      },
+      {
+        "name": "In 6A",
+        "id": 52
+      },
+      {
+        "name": "In 6B",
+        "id": 53
+      },
+      {
+        "name": "ZAINO 3",
+        "id": 54
+      },
+      {
+        "name": "MPR 6",
+        "id": 55
+      },
+      {
+        "name": "SIMPLY 2",
+        "id": 56
+      },
+      {
+        "name": "RIT ROMA - 2",
+        "id": 57
+      },
+      {
+        "name": "In 7C",
+        "id": 58
+      },
+      {
+        "name": "In 7D",
+        "id": 59
+      },
+      {
+        "name": "In 8A",
+        "id": 60
+      },
+      {
+        "name": "ZAINETTO 2",
+        "id": 61
+      },
+      {
+        "name": "In 8C",
+        "id": 62
+      },
+      {
+        "name": "In 8D",
+        "id": 63
+      },
+      {
+        "name": "TEAM-A A",
+        "id": 64
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "MON SA",
+        "id": 40
+      },
+      {
+        "name": "Out 4B",
+        "id": 7
+      },
+      {
+        "name": "Out 2B",
+        "id": 23
+      },
+      {
+        "name": "Out 3B",
+        "id": 25
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false,
+    "snapshots": {
+      "TEST 23": {
+        "7": 96,
+        "23": 65,
+        "25": 1001,
+        "40": 83
+      }
+    }
+  },
+  "METUS COLOR": {
+    "numInputs": 48,
+    "numOutputs": 4,
+    "inputsData": [
+      {
+        "name": "* MUX CLEAN A",
+        "id": 100,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A A",
+        "id": 64,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-B A",
+        "id": 68,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS A",
+        "id": 4,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX WF A",
+        "id": 96,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX CLEAN B",
+        "id": 101,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A B",
+        "id": 65,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-B B",
+        "id": 69,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 5,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX WF B",
+        "id": 97,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "MPR 7",
+        "id": 83
+      },
+      {
+        "name": "MPR 8",
+        "id": 87
+      },
+      {
+        "name": "MPR 3",
+        "id": 23
+      },
+      {
+        "name": "SIMPLY 1",
+        "id": 24
+      },
+      {
+        "name": "RIT ROMA - 1",
+        "id": 25
+      },
+      {
+        "name": "In 7C",
+        "id": 26
+      },
+      {
+        "name": "In 7D",
+        "id": 27
+      },
+      {
+        "name": "In 8A",
+        "id": 28
+      },
+      {
+        "name": "ZAINETTO 1",
+        "id": 29
+      },
+      {
+        "name": "In 8C",
+        "id": 30
+      },
+      {
+        "name": "In 8D",
+        "id": 31
+      },
+      {
+        "name": "CLEAN FEED A",
+        "id": 32
+      },
+      {
+        "name": "CLEAN FEED B",
+        "id": 33
+      },
+      {
+        "name": "BEAUTY A",
+        "id": 36
+      },
+      {
+        "name": "BEAUTY B",
+        "id": 37
+      },
+      {
+        "name": "WORLDFEED HDR A",
+        "id": 40
+      },
+      {
+        "name": "WORLDFEED HDR B",
+        "id": 41
+      },
+      {
+        "name": "*MUX WF B BKP",
+        "id": 44
+      },
+      {
+        "name": "In 4B",
+        "id": 45
+      },
+      {
+        "name": "In 4C",
+        "id": 46
+      },
+      {
+        "name": "MPR 4",
+        "id": 47
+      },
+      {
+        "name": "SWITCH INPUT 2",
+        "id": 48
+      },
+      {
+        "name": "In 5B",
+        "id": 49
+      },
+      {
+        "name": "In 5C",
+        "id": 50
+      },
+      {
+        "name": "MPR 5",
+        "id": 51
+      },
+      {
+        "name": "In 6A",
+        "id": 52
+      },
+      {
+        "name": "In 6B",
+        "id": 53
+      },
+      {
+        "name": "ZAINO 3",
+        "id": 54
+      },
+      {
+        "name": "MPR 6",
+        "id": 55
+      },
+      {
+        "name": "SIMPLY 2",
+        "id": 56
+      },
+      {
+        "name": "RIT ROMA - 2",
+        "id": 57
+      },
+      {
+        "name": "In 7C",
+        "id": 58
+      },
+      {
+        "name": "In 7D",
+        "id": 59
+      },
+      {
+        "name": "In 8A",
+        "id": 60
+      },
+      {
+        "name": "ZAINETTO 2",
+        "id": 61
+      },
+      {
+        "name": "In 8C",
+        "id": 62
+      },
+      {
+        "name": "In 8D",
+        "id": 63
+      },
+      {
+        "name": "TEAM-A A",
+        "id": 64
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "METUS IN 1",
+        "id": 68
+      },
+      {
+        "name": "METUS IN 2",
+        "id": 69
+      },
+      {
+        "name": "TV UFFICIO",
+        "id": 70
+      },
+      {
+        "name": "TSL IN 2",
+        "id": 77
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false
+  },
+  "MONITOR COLOR": {
+    "numInputs": 4,
+    "numOutputs": 3,
+    "inputsData": [
+      {
+        "name": "AF 1 (VMIX)",
+        "id": 108,
+        "bgColor": "#1421d7",
+        "fgColor": "#fcfcfc"
+      },
+      {
+        "name": "AF 2 (VMIX)",
+        "id": 109,
+        "bgColor": "#0006a8",
+        "fgColor": "#ffffff"
+      },
+      {
+        "name": "WORLD FEED A",
+        "id": 0,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "WORLD FEED B",
+        "id": 1,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "TV UFFICIO",
+        "id": 70,
+        "bgColor": "#29aa08"
+      },
+      {
+        "name": "TSL IN 1",
+        "id": 74,
+        "bgColor": "#995c6e"
+      },
+      {
+        "name": "TSL IN 2",
+        "id": 75,
+        "bgColor": "#975c6d"
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false
+  },
+  "TEST Logoz": {
+    "numInputs": 10,
+    "numOutputs": 1,
+    "inputsData": [
+      {
+        "name": "AF 1 (VMIX)",
+        "id": 108,
+        "bgColor": "#ffffff",
+        "fgColor": "#001eff"
+      },
+      {
+        "name": "AF 2 (VMIX)",
+        "id": 109,
+        "bgColor": "#faf9f9",
+        "fgColor": "#4400ff"
+      },
+      {
+        "name": "WORLD FEED A",
+        "id": 0,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "WORLD FEED B",
+        "id": 1,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "WORLD FEED C",
+        "id": 2,
+        "bgColor": "#bababa",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS A",
+        "id": 4,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 5,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS C",
+        "id": 6,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "MV Out 1",
+        "id": 104,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "SIMPLY 1",
+        "id": 24,
+        "bgColor": "#9cbbed",
+        "fgColor": "#000000"
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "TV UFFICIO",
+        "id": 70
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false
+  },
+  "8x1": {
+    "numInputs": 8,
+    "numOutputs": 1,
+    "inputsData": [
+      {
+        "name": "WORLD FEED B",
+        "id": 0
+      },
+      {
+        "name": "WORLD FEED C",
+        "id": 1
+      },
+      {
+        "name": "WORLD FEED D",
+        "id": 2
+      },
+      {
+        "name": "FAN REACTIONS A",
+        "id": 3
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 4
+      },
+      {
+        "name": "FAN REACTIONS C",
+        "id": 5
+      },
+      {
+        "name": "FAN REACTIONS D",
+        "id": 6
+      },
+      {
+        "name": "MUX ASCOLTI",
+        "id": 7
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "MONITOR 3 (UFFICIO)",
+        "id": 0
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false
+  },
+  "Dallas Feeds": {
+    "numInputs": 22,
+    "numOutputs": 25,
+    "inputsData": [
+      {
+        "name": "* MUX WF A",
+        "id": 96,
+        "bgColor": "#ff00ea",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "* MUX WF B",
+        "id": 97,
+        "bgColor": "#bbff00",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A A",
+        "id": 64,
+        "bgColor": "#ff00ea",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-B A",
+        "id": 68,
+        "bgColor": "#ff00ea",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-A B",
+        "id": 65,
+        "bgColor": "#bbff00",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "TEAM-B B",
+        "id": 69,
+        "bgColor": "#bbff00",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS A",
+        "id": 4,
+        "bgColor": "#ff00ea",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 5,
+        "bgColor": "#bbff00",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "BEAUTY A",
+        "id": 36,
+        "bgColor": "#ff00ea",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "BEAUTY B",
+        "id": 37,
+        "bgColor": "#bbff00",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "MPR 1",
+        "id": 15,
+        "fgColor": "#ffffff",
+        "bgColor": "#2e1f7a"
+      },
+      {
+        "name": "MPR 2",
+        "id": 19,
+        "fgColor": "#ffffff",
+        "bgColor": "#2e1f7a"
+      },
+      {
+        "name": "MPR 3",
+        "id": 23,
+        "fgColor": "#ffffff",
+        "bgColor": "#2e1f7a"
+      },
+      {
+        "name": "MPR 4",
+        "id": 47,
+        "fgColor": "#ffffff",
+        "bgColor": "#2e1f7a"
+      },
+      {
+        "name": "MPR 5",
+        "id": 51,
+        "fgColor": "#ffffff",
+        "bgColor": "#2e1f7a"
+      },
+      {
+        "name": "MPR 6",
+        "id": 55,
+        "fgColor": "#ffffff",
+        "bgColor": "#2e1f7a"
+      },
+      {
+        "name": "* MUX CLEAN A",
+        "id": 100,
+        "fgColor": "#000000",
+        "bgColor": "#ff00ea"
+      },
+      {
+        "name": "* MUX CLEAN B",
+        "id": 101,
+        "fgColor": "#000000",
+        "bgColor": "#bbff00"
+      },
+      {
+        "name": "* MUX WF HDR A",
+        "id": 76,
+        "bgColor": "#ff5900",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "*  MUX WF HDR B",
+        "id": 77,
+        "bgColor": "#ff5900",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "MPR 7",
+        "id": 83,
+        "fgColor": "#ffffff",
+        "bgColor": "#2e1f7a"
+      },
+      {
+        "name": "MPR 8",
+        "id": 87,
+        "fgColor": "#ffffff",
+        "bgColor": "#2e1f7a"
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "DALLAS 1",
+        "id": 14
+      },
+      {
+        "name": "DALLAS 1-B",
+        "id": 29
+      },
+      {
+        "name": "MAKITO 1",
+        "id": 36
+      },
+      {
+        "name": "DALLAS 2",
+        "id": 18,
+        "bgColor": "#ffffff",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "DALLAS 2-B",
+        "id": 31,
+        "bgColor": "#ffffff",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "DALLAS 3",
+        "id": 15
+      },
+      {
+        "name": "DALLAS 3-B",
+        "id": 33
+      },
+      {
+        "name": "DALLAS 4",
+        "id": 19,
+        "bgColor": "#ffffff",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "DALLAS 4-B",
+        "id": 37,
+        "bgColor": "#ffffff",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "DALLAS 5",
+        "id": 34
+      },
+      {
+        "name": "DALLAS 5-B",
+        "id": 49
+      },
+      {
+        "name": "DALLAS 6",
+        "id": 38,
+        "fgColor": "#000000",
+        "bgColor": "#ffffff"
+      },
+      {
+        "name": "DALLAS 6-B",
+        "id": 51,
+        "fgColor": "#000000",
+        "bgColor": "#ffffff"
+      },
+      {
+        "name": "DALLAS 7",
+        "id": 35
+      },
+      {
+        "name": "DALLAS 7-B",
+        "id": 53
+      },
+      {
+        "name": "DALLAS 8",
+        "id": 39,
+        "bgColor": "#ffffff",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "DALLAS 8-B",
+        "id": 57,
+        "bgColor": "#ffffff",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "DALLAS 9",
+        "id": 54
+      },
+      {
+        "name": "DALLAS 9-B",
+        "id": 9
+      },
+      {
+        "name": "DALLAS 10",
+        "id": 58,
+        "bgColor": "#ffffff",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "DALLAS 10-B",
+        "id": 11,
+        "bgColor": "#ffffff",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "DALLAS 11",
+        "id": 55
+      },
+      {
+        "name": "DALLAS 11-B",
+        "id": 13
+      },
+      {
+        "name": "DALLAS 12",
+        "id": 59,
+        "bgColor": "#ffffff",
+        "fgColor": "#000000"
+      },
+      {
+        "name": "DALLAS 12-B",
+        "id": 17,
+        "bgColor": "#ffffff",
+        "fgColor": "#000000"
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false
+  },
+  "rdfrghjkl": {
+    "numInputs": 13,
+    "numOutputs": 3,
+    "inputsData": [
+      {
+        "name": "In 4C",
+        "id": 14
+      },
+      {
+        "name": "In 4B",
+        "id": 13
+      },
+      {
+        "name": "In 3D",
+        "id": 11,
+        "bgColor": "#9aa22f"
+      },
+      {
+        "name": "In 3C",
+        "id": 10
+      },
+      {
+        "name": "In 3B",
+        "id": 9
+      },
+      {
+        "name": "FAN REACTIONS D",
+        "id": 7
+      },
+      {
+        "name": "FAN REACTIONS C",
+        "id": 6,
+        "bgColor": "#7c3636"
+      },
+      {
+        "name": "FAN REACTIONS B",
+        "id": 5
+      },
+      {
+        "name": "AF 2 (VMIX)",
+        "id": 109,
+        "bgColor": "#26d9cd"
+      },
+      {
+        "name": "AF 1 (VMIX)",
+        "id": 108
+      },
+      {
+        "name": "*MUX WF A BKP",
+        "id": 12
+      },
+      {
+        "name": "* MUX WF C",
+        "id": 98,
+        "bgColor": "#3b82f6"
+      },
+      {
+        "name": "* MUX ASCOLTI",
+        "id": 8,
+        "bgColor": "#a11b1b"
+      }
+    ],
+    "outputsData": [
+      {
+        "name": "TV UFFICIO",
+        "id": 70
+      },
+      {
+        "name": "Out 2B",
+        "id": 3
+      },
+      {
+        "name": "Out 2A",
+        "id": 2
+      }
+    ],
+    "ip": "10.126.1.101",
+    "port": "9000",
+    "extended": false,
+    "snapshots": {
+      "test snap1": {
+        "2": 14,
+        "3": 24,
+        "5": 1001,
+        "70": 108
+      },
+      "new snap": {
+        "2": 10,
+        "3": 10,
+        "5": 1001,
+        "70": 108
+      },
+      "TEST 22": {
+        "2": 14,
+        "3": 24,
+        "5": 1001,
+        "70": 108
+      }
+    }
+  }
+}

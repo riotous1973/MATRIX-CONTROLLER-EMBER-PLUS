@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMBER+ MATRIX by N.I.S.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="ico.jpg">
+</head>
+<body>
+    <div id="app">
+        <!-- Top Bar for Connection -->
+        <header id="top-bar" class="glass">
+            <h2 style="margin: 0; background: linear-gradient(90deg, #3b82f6, #10b981); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1.5rem; font-weight: bold;">EMBER+ MATRIX by N.I.S.</h2>
+            <div class="top-connection">
+                <input type="text" id="matrix-ip" placeholder="IP Address" value="10.126.1.101">
+                <input type="number" id="matrix-port" placeholder="Port" value="9000">
+                <button id="btn-scan" class="secondary-btn" style="padding: 6px 12px; height: 36px;">Auto</button>
+                <label style="display:flex; align-items:center; gap:5px; margin-left: 10px; cursor: pointer;">
+                    <input type="checkbox" id="matrix-extended"> Extended
+                </label>
+                <button id="btn-connect" class="primary-btn" style="padding: 6px 20px; height: 36px; margin-left: 10px;">Connect</button>
+                <button id="btn-shutdown" class="secondary-btn" style="padding: 6px 16px; height: 36px; margin-left: 10px; background: var(--danger); color: white; border: none;">App Shutdown</button>
+                <a href="tablet.html" class="secondary-btn" style="padding: 6px 16px; height: 36px; margin-left: 10px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; background: rgba(59, 130, 246, 0.2); border: 1px solid rgba(59, 130, 246, 0.4); color: #60a5fa; font-weight: 600;">Tablet Panel 📱</a>
+                <div class="status-indicator">
+                    <span id="connection-dot" class="dot red"></span>
+                    <span id="connection-text">Disconnected</span>
+                </div>
+            </div>
+        </header>
+
+        <div id="main-area">
+            <!-- Sidebar Setup Panel -->
+            <aside class="sidebar glass">
+                <section class="setup-section">
+                <h3>Matrix Size</h3>
+                <div class="row-inputs">
+                    <div class="input-group">
+                        <label>Inputs</label>
+                        <input type="number" id="matrix-inputs" min="1" max="128" value="8">
+                    </div>
+                    <div class="input-group">
+                        <label>Outputs</label>
+                        <input type="number" id="matrix-outputs" min="1" max="128" value="8">
+                    </div>
+                </div>
+                <button id="btn-generate" class="secondary-btn">Generate Grid</button>
+                        </section>
+
+            <section class="setup-section">
+                <h3>Sort Grid</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px;">
+                    <button id="btn-sort-rows" class="secondary-btn" style="font-size: 0.8rem; padding: 6px;">Rows A-Z</button>
+                    <button id="btn-sort-cols" class="secondary-btn outline" style="font-size: 0.8rem; padding: 6px;">Cols A-Z</button>
+                    <button id="btn-sort-rows-id" class="secondary-btn" style="font-size: 0.8rem; padding: 6px;">Rows 1-9</button>
+                    <button id="btn-sort-cols-id" class="secondary-btn outline" style="font-size: 0.8rem; padding: 6px;">Cols 1-9</button>
+                </div>
+            </section>
+
+            <section class="setup-section">
+                <h3>Scheduler</h3>
+                <div class="row-inputs">
+                    <div class="input-group" style="flex: 1;">
+                        <label>Time (24H)</label>
+                        <div style="display: flex; gap: 8px; align-items: center;">
+                            <input type="number" id="schedule-hour" min="0" max="23" placeholder="HH" style="width: 80px; text-align: center;" required>
+                            <span style="font-weight: bold; color: var(--text-muted);">:</span>
+                            <input type="number" id="schedule-minute" min="0" max="59" placeholder="MM" style="width: 80px; text-align: center;" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Output</label>
+                    <select id="schedule-out"></select>
+                </div>
+                <div class="input-group">
+                    <label>Input</label>
+                    <select id="schedule-in"></select>
+                </div>
+                <button id="btn-add-schedule" class="secondary-btn">Add Auto-Take</button>
+                <div id="schedules-list" style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px;">
+                    <!-- scheduled items will appear here -->
+                </div>
+            </section>
+
+            <section class="setup-section">
+                <h3>Layout Management</h3>
+                <div class="input-group">
+                    <input type="text" id="layout-name" placeholder="Layout Name">
+                </div>
+                <div class="row-inputs">
+                    <button id="btn-save-layout" class="secondary-btn" style="flex: 1;">Save</button>
+                    <button id="btn-load-layout" class="secondary-btn outline" style="flex: 1;">Load</button>
+                    <button id="btn-delete-layout" class="secondary-btn outline" style="flex: 1; background: var(--danger); border-color: var(--danger); color: white;" title="Delete selected layout">Delete</button>
+                </div>
+                <div class="row-inputs" style="margin-top: 4px;">
+                    <button id="btn-export-layouts" class="secondary-btn outline" style="font-size: 0.8rem; padding: 6px 12px; width: 50%;" title="Export all layouts to a JSON file">Export File</button>
+                    <button id="btn-import-layouts" class="secondary-btn outline" style="font-size: 0.8rem; padding: 6px 12px; width: 50%;" title="Import layouts from a JSON file">Import File</button>
+                </div>
+                <input type="file" id="import-file-input" accept=".json" style="display: none;">
+                <select id="saved-layouts">
+                    <option value="">Select a layout...</option>
+                </select>
+            </section>
+
+            <section class="setup-section" id="snapshot-section">
+                <h3>Snapshots (Current Layout)</h3>
+                <div class="input-group">
+                    <input type="text" id="snapshot-name" placeholder="Snapshot Name">
+                </div>
+                <div class="row-inputs">
+                    <button id="btn-save-snapshot" class="secondary-btn" style="flex: 1; font-size: 0.8rem;">Save State</button>
+                    <button id="btn-recall-snapshot" class="secondary-btn outline" style="flex: 1; font-size: 0.8rem;">Recall State</button>
+                </div>
+                <div class="row-inputs" style="margin-top: 5px;">
+                    <button id="btn-delete-snapshot" class="secondary-btn outline" style="flex: 1; border-color: var(--danger); color: var(--danger); font-size: 0.8rem;">Delete Snapshot</button>
+                </div>
+                <select id="saved-snapshots">
+                    <option value="">Select a snapshot...</option>
+                </select>
+            </section>
+        </aside>
+
+        <!-- Main Workspace -->
+        <main class="workspace">
+            <div class="workspace-header">
+                <div class="selection-info glass">
+                    <div class="info-block">
+                        <span class="label">Destination (OUT)</span>
+                        <span id="selected-out" class="value">-</span>
+                    </div>
+                    <div class="info-block">
+                        <span class="label">Current (ATTUALE)</span>
+                        <span id="current-connection" class="value" style="color: var(--danger);">-</span>
+                    </div>
+                    <div class="info-block">
+                        <span class="label">New Source (IN)</span>
+                        <span id="selected-in" class="value" style="color: var(--accent);">-</span>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 15px;">
+                    <button id="btn-sort-toggle" class="secondary-btn" style="padding: 10px 14px; font-size: 1.1rem; line-height: 1; cursor: pointer; transition: all 0.2s;" title="Sort dropdown alphabetically">A-Z</button>
+                    <div id="btn-trash" class="secondary-btn" style="padding: 10px 14px; font-size: 1.5rem; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s; border: 1px dashed var(--danger); color: var(--danger);" title="Drag rows or columns here to delete">🗑️</div>
+                    <button id="btn-undo" class="secondary-btn disabled" title="Annulla l'ultima connessione">UNDO</button>
+                    <button id="btn-take" class="take-btn disabled">TAKE</button>
+                </div>
+            </div>
+
+            <div class="grid-container glass">
+                <div id="matrix-grid" class="matrix-grid">
+                    <!-- Grid generated dynamically -->
+                    <div class="placeholder-text">Generate a grid to start</div>
+                </div>
+            </div>
+        </main>
+        </div>
+    </div>
+    <!-- Countdown Modal Overlay -->
+    <div id="warning-modal" class="modal-overlay">
+        <div class="modal-content warning-content">
+            <h2 style="color: var(--danger); margin-top: 0;">⚠️ AUTO-TAKE IMMINENTE!</h2>
+            <p id="warning-details" style="font-size: 1.2rem; margin: 15px 0;">Routing Input X to Output Y</p>
+            <div class="countdown-circle">
+                <span id="warning-countdown">30</span>
+            </div>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Il comando verrà inviato in automatico allo scadere del tempo.</p>
+            <button id="btn-cancel-take" class="primary-btn" style="background: var(--danger); width: 100%; margin-top: 20px; font-size: 1.2rem; padding: 15px;">BLOCCA / ANNULLA</button>
+        </div>
+    </div>
+
+    <script src="socket.io.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
