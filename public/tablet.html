@@ -188,14 +188,17 @@
 
         .selection-info {
             display: flex;
-            gap: 32px;
+            gap: 16px;
             flex: 1;
+            min-width: 0;
         }
 
         .info-block {
             display: flex;
             flex-direction: column;
             gap: 4px;
+            flex: 1;
+            min-width: 0;
         }
 
         .info-block .label {
@@ -203,17 +206,21 @@
             text-transform: uppercase;
             color: var(--text-muted);
             letter-spacing: 0.05em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .info-block .value {
             font-size: 1.05rem;
             font-weight: 700;
             color: var(--text-main);
-            max-width: 220px;
+            max-width: 100%;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
+
 
         .take-controls {
             display: flex;
