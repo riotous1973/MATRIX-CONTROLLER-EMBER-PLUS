@@ -324,7 +324,7 @@ button {
 .port-config {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 0;
     width: 150px;
     margin-right: 4px;
 }
@@ -532,7 +532,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-top: 2px;
+    margin-top: -6px;
     opacity: 0.15;
     transition: opacity 0.2s ease;
 }
