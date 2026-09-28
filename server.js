@@ -98,6 +98,14 @@ async function connectToEmber(ip, port, socket) {
         // Fetch Matrix
         console.log("Fetching Video Matrix (1.2.0.3)...");
         matrixNode = await client.getElementByPath('1.2.0.3');
+        if (matrixNode) {
+            console.log("Fetching Matrix connections via Ember+...");
+            try {
+                await (await client.getDirectory(matrixNode)).response;
+            } catch (e) {
+                console.warn("Could not fetch matrix directory via Ember+:", e.message);
+            }
+        }
 
         // Fetch Targets Labels
         try {
